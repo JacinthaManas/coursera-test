@@ -1,0 +1,90 @@
+/*****************Base Styles*********************/
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: cornflowerblue;
+    text-align: center;
+    margin: 80px 80px 100px 80px
+}
+
+.row{
+ width: 100%;
+ margin:5px;
+ 
+}
+
+*.col-{
+    border: 2px solid black;
+    display: inline-block;
+    text-align: left;
+    background-color: rgb(233, 233, 233);
+    margin: 8px;
+    width: 30%;
+   
+}
+
+/****************Section*******************/
+.title{
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 0;
+    width: 100px;
+    float: right;
+    display: block;
+    font-weight: bold;
+    position: relative;
+}
+
+.title-section1
+{
+    background-color: rgb(58, 141, 236);
+}
+.title-section2
+{
+    background-color: rgb(238, 153, 42);
+}
+.title-section3
+{
+    background-color: rgb(204, 106, 143);
+}
+
+.section {
+    padding: 55px 15px 15px 15px;
+}
+  
+
+
+/******************Desktop Version****************/
+@media (min-width: 992px) {
+
+    .col-1 {width: 31.9%}
+    .col-2 {width: 31.9%}
+    .col-3 {width: 31.9%}
+
+}
+
+/******************Tablet View*******************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col-1 {width: 46%}
+    .col-2 {width: 46%;
+    margin: 8px 8px 8px 8px}
+    .col-3 {width: 95%}
+
+}
+
+/******************Mobile View*******************/
+@media (max-width: 767px) {
+
+    .col-1 {width: 92%}
+    .col-2 {width: 92%}
+    .col-3 {width: 92%}
+
+}
+
