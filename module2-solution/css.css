@@ -24,7 +24,6 @@ h1{
     background-color: rgb(233, 233, 233);
     margin: 8px;
     width: 30%;
-   
 }
 
 /****************Section*******************/
@@ -58,7 +57,6 @@ h1{
     padding: 55px 15px 15px 15px;
 }
   
-
 
 /******************Desktop Version****************/
 @media (min-width: 992px) {
