@@ -13,7 +13,7 @@ $(function() { // Same as document.addEventListener("DOMContentLoaded"...
 
     var dc = {};
 
-    var homeHtmlUrl = "snippets/home-snippet1.html";
+    var homeHtmlUrl = "snippets/home-snippet.html";
     var allCategoriesUrl =
         "https://davids-restaurant.herokuapp.com/categories.json";
     var categoriesTitleHtml = "snippets/categories-title-snippet.html";
@@ -101,8 +101,7 @@ $(function() { // Same as document.addEventListener("DOMContentLoaded"...
                 // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
                 // Pay attention to what type of data that function returns vs what the chosenCategoryShortName
                 // variable's name implies it expects.
-                // var chosenCategoryShortName = ....
-
+                var chosenCategoryShortName = chooseRandomCategory(categories).short_name;
 
                 // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
                 // chosen category from STEP 2. Use existing insertProperty function for that purpose.
